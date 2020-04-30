@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarcustom"
+    android:orientation="horizontal"
+    android:background="#FFF"
+    app:popupTheme="@style/AppTheme.AppBarOverlay">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/toolbar_homi"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/toolbar_homimarket"
+            android:layout_gravity="center"
+            android:padding="7dp"/>
+
+
+        <ImageButton
+            android:layout_gravity="end"
+            android:id="@+id/cart"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:padding="8dp"
+            app:srcCompat="@drawable/cart_toolbar_icon"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

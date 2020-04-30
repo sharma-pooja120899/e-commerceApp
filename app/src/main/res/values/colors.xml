@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9D08</color>
+    <color name="colorPrimaryDark">#DD8303</color>
+    <color name="colorAccent">#C4C1BC</color>
+    <color name="colorPermanent">#E9910C</color>
+    <color name="sideone">#03665C</color>
+    <color name="grey">#535353</color>
+    <color name="buttoncolor">#FF9800</color>
+    <color name="billpayment">#95000000</color>
+</resources>

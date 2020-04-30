@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MyAccount"
+    android:layout_gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:background="@drawable/myaccountchng"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="25dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#FFF"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/abc"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:text="Name:"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textColor="@color/billpayment"
+                        android:fontFamily="@font/allcategoriesfont"
+                        android:text="....."
+                        android:textStyle="bold"
+                        android:id="@+id/name"
+                        android:textSize="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.4"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#FFF"
+                android:layout_marginTop="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/abc"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:text="Email id:"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textColor="@color/billpayment"
+                        android:fontFamily="@font/allcategoriesfont"
+                        android:text="....."
+                        android:id="@+id/email"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.4"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#FFF"
+                android:layout_marginTop="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/abc"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:text="Phone no:"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/billpayment"
+                        android:fontFamily="@font/allcategoriesfont"
+                        android:text="....."
+                        android:id="@+id/phone"
+                        android:textSize="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.4"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#FFF"
+                android:layout_marginTop="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/abc"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:text="Area:"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:textStyle="bold"
+                        android:paddingEnd="8dp"
+                        android:textColor="@color/billpayment"
+                        android:fontFamily="@font/allcategoriesfont"
+                        android:text="....."
+                        android:id="@+id/area"
+                        android:textSize="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.4"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#FFF"
+                android:layout_marginTop="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/abc"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:text="PIN code:"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:textStyle="bold"
+                        android:paddingEnd="8dp"
+                        android:textColor="@color/billpayment"
+                        android:fontFamily="@font/allcategoriesfont"
+                        android:text="....."
+                        android:id="@+id/pin"
+                        android:textSize="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.4"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:background="#FFF"
+                android:layout_marginTop="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/abc"
+                        android:textColor="#000"
+                        android:padding="5dp"
+                        android:text="Landmark:"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:paddingStart="8dp"
+                        android:textStyle="bold"
+                        android:paddingEnd="8dp"
+                        android:textColor="@color/billpayment"
+                        android:fontFamily="@font/allcategoriesfont"
+                        android:text="....."
+                        android:id="@+id/landmark"
+                        android:textSize="15dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.4"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/textfont1"
+                    android:background="#FFF"
+                    android:text="Update Your Shipping Details here:"
+                    android:textColor="@color/sideone"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:background="#FFF"
+                    android:id="@+id/address3"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/allcategoriesfont"
+                    android:hint="LandMark"
+                    android:textColor="@color/billpayment"
+                    android:textSize="15dp"
+                    />
+
+
+                <TextView
+                    android:textColor="@color/billpayment"
+                    android:id="@+id/address1"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/allcategoriesfont"
+                    android:text="Malviyanagar,Jaipur"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/address2"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/billpayment"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/allcategoriesfont"
+                    android:text="302017"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/buttoncolor"
+                android:fontFamily="@font/abc"
+                android:padding="20dp"
+
+                android:text="Update"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
